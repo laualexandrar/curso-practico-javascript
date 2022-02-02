@@ -7,7 +7,49 @@
     <title>Geometric Figures</title>
 </head>
 <body>
-    <h1>Geometric Figures</h1>
+    <header>   
+        <h1>Geometric Figures</h1>
+        <p>This is the first workshop of the JavaScript class</p>
+        <h2>Calculate the area and the perimeter of a square</h2>
+        <form>
+            <label for="SquareInput">
+                Write how much it measures each side of the square:
+            </label>
+            <input type="number" id="SquareInput"/>
+            <button type="button" onclick="calculateSquarePerimeter()">
+                Calculate perimeter
+            </button>
+            <button type="button" onclick="calculateSquareArea()">
+                Calculate area
+            </button>
+        </form>
+        <h2>Calculate the area and the perimeter of a triangle</h2>
+        <form>
+            <label for="TriangleSideOneInput">
+                <input type="number" id="TriangleSideOneInput" placeholder="Side One"/>
+            </label>
+            <br/>
+            <label for="TriangleSideTwoInput">
+                <input type="number" id="TriangleSideTwoInput" placeholder="side Two"/>
+            </label>
+            <br/>
+            <label for="TriangleBaseInput">
+                <input type="number" id="TriangleBaseInput" placeholder="Base"/>
+            </label>
+            <br/>
+            <label for="TriangleHeight">
+                <input type="number" id="TriangleHeightInput" placeholder="Height"/>
+            </label>
+            <br>
+            <button type="button" onclick="calculateTrianglePerimeter()">
+                Calculate perimeter
+            </button>
+            <br/>
+            <button type="button" onclick="calculateTriangleArea()">
+                Calculate area
+            </button>
+        </form>
+    </header>
     <script src = "./figures.js"></script>
 </body>
 </html>
