@@ -37,7 +37,7 @@ console.groupEnd();
 
 function calculateSquarePerimeter() {
     const input = document.getElementById("SquareInput");
-    const value = input.value;
+    const value = Number(input.value);
 
     const perimeter = perimeterOfSquare(value);
     alert(perimeter);
@@ -45,7 +45,7 @@ function calculateSquarePerimeter() {
 
 function calculateSquareArea(){
     const input = document.getElementById("SquareInput");
-    const value = input.value;
+    const value = Number(input.value);
 
     const area = areaOfSquare(value);
     alert(area);
@@ -75,4 +75,17 @@ function calculateTriangleArea(){
     const area = areaOfTriangle( base, triangleHeight);
     alert(area);
 }
+function calculateCirclePerimeter(){
+    const input = document.getElementById("CircleInput");
+    const radioValue = Number(input.value);
+    
+    const perimeter = circlePerimeter(radioValue);
+    alert(perimeter);
+}
+function calculateCircleArea(){
+    const input = document.getElementById("CircleInput");
+    const radioValue = Number(input.value);
 
+    const area = circleArea(radioValue)
+    alert(area);
+}
