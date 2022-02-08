@@ -12,8 +12,6 @@
 
 // const averageList1 = sumList1 / list1.length;
 
-
-
 function calculateMean(list){
     // let sumList = 0;
     //     for(var i = 0; i < list.length; i++){
@@ -27,3 +25,5 @@ function calculateMean(list){
     const averageList = sumList / list.length;
     return averageList;
 }
+
+
