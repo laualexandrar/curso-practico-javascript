@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Average</title>
+    <title>Find the Mean</title>
 </head>
 <body>
-    <h1>Average</h1>
+    <header>
+        <h1>Average</h1>
+    </header>
+    <section>
+        <h2>enter the numbers separated by commas</h2>
+        <form>
+            <label for="arrayInput">
+                <input type="text" id="arrayInput" placeholder="number1, number2, ...,numberN"/>
+            </label>
+                <button type="button" onclick="calculateMeanFromInput()">
+                    Calculate Mean
+                </button>
+                <p id="ResultMean"></p>
+        </form>
+    </section>
+
     <script src="./average.js"></script>
 </body>
 </html>

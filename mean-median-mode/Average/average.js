@@ -26,4 +26,14 @@ function calculateMean(list){
     return averageList;
 }
 
+// function calculateMeanFromInput(){
+//     const input = document.getElementById('array[]');
+//     const value = input.value;
+
+//     const mean = calculateMean(value);
+
+//     const meanResult = document.getElementById("ResultMean");
+//     meanResult.innerText=  "The mean of the list of numbers you provide is: " + mean;
+    
+// }
 
